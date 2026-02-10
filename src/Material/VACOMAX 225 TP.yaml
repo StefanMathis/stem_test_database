@@ -1,0 +1,24 @@
+---    
+name: "VACOMAX 225 TP"
+relative_permeability: 1.05
+remanence: 
+  VariableFirstOrderTaylor:
+    influencing_quantity_type: Temperature
+    parameters:
+      reference_value:  1.07 T
+      input_offset: 20.0 °C
+      coefficient: -0.03 % / K
+iron_loss_coefficients:
+  hysteresis_coefficient: 0 W/kg
+  eddy_current_coefficient: 0 W/kg
+mass_density: 8300.0 kg / m^3
+electrical_resistivity: .inf # We currently neglect eddy current losses in the magnet
+intrinsic_coercivity:
+  VariableFirstOrderTaylor:
+    influencing_quantity_type: Temperature
+    parameters:
+      reference_value: 1590 kA/m
+      input_offset: 20.0 °C
+      coefficient: -0.18 % / K
+heat_capacity: 370.0 J / (kg * K)
+thermal_conductivity: 10.0 W / (m * K)

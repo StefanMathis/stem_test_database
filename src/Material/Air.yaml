@@ -1,0 +1,8 @@
+name: Air 
+relative_permeability: 1.0
+remanence: 0.0
+mass_density: 1.225 kg / m^3 # https://macinstruments.com/blog/what-is-the-density-of-air-at-stp/
+electrical_resistivity: .inf
+intrinsic_coercivity: 0.0
+heat_capacity: 1.006 J / kg / K # https://www.engineeringtoolbox.com/air-specific-heat-capacity-d_705.html
+thermal_conductivity: 25.72e-3 W / m / K # https://www.engineeringtoolbox.com/air-properties-viscosity-conductivity-heat-capacity-d_1509.html

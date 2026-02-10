@@ -1,0 +1,15 @@
+---    
+name: Die-cast aluminium
+relative_permeability: 1.000022
+remanence: 0.0 T
+mass_density: 2700.0 kg / m^3 # https://de.wikipedia.org/wiki/Aluminium
+electrical_resistivity:
+  VariableFirstOrderTaylor:
+    influencing_quantity_type: Temperature
+    parameters:
+      reference_value: 1/37 m/MS
+      input_offset: 20.0 °C
+      coefficient: 0.4 % / K # Resistance increases by approx. 0.4 % per Kelvin (or by 40% per 100 K)
+intrinsic_coercivity: 0.0 A/m
+heat_capacity: 897.0 J / kg / K # https://www.engineeringtoolbox.com/air-specific-heat-capacity-d_705.html
+thermal_conductivity: 237.0 W / m / K # => https://www.engineeringtoolbox.com/air-properties-viscosity-conductivity-heat-capacity-d_1509.html

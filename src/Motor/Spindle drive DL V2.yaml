@@ -1,0 +1,416 @@
+--- 
+name: "Spindle drive DL"
+stator: 
+  core:
+    air_gap_radius: 9 mm
+    yoke_radius: 20 mm
+    axial_length: 48 mm
+    axial_coil_overhang: 6 mm
+    iron_fill_factor: 0.92
+    material:
+      name: "NO20-140Y320"
+    pole_pairs: 1
+    skew_angle: 0.0 deg
+    air_gap: 
+      AirGapSlotted:
+        slots: 18
+        starts_in_slot_middle: false
+        carter_factor_model: Bin12
+        slot:
+          SlotTrapezoidSemi:
+            tooth_width: 1.45 mm
+            air_gap_radius: 9 mm
+            yoke_radius: 20 mm
+            slots: 18
+            opening_width: 1.2 mm
+            opening_height: 0.5 mm
+            height: 20 mm - 9 mm - 5.5 mm
+            bottom_radius: 0.0 mm
+            top_radius: 0.0 mm
+            opening_radius: 0.0 mm
+            consider_tooth_tip_leakage: false
+  winding:
+    CoilAssembly:
+      slots: 18
+      pole_pairs: 1
+      phases: 3
+      layers: 2
+      coils:
+        - Full:
+            first_zone:
+              slot: 0
+              layer: 0
+            second_zone:
+              slot: 7
+              layer: 1
+            first_zone_is_positive: true
+            clockwise: true
+            turns: 12
+            phase: 1
+            wire:
+              WireSff:
+                material_conductor:
+                  name: "Copper"
+                slot_filling_factor_electrical: 0.24
+                slot_filling_factor_mechanical: 0.3
+            axial_overhang: ~
+            end_length: ~
+        - Full:
+            first_zone:
+              slot: 1
+              layer: 0
+            second_zone:
+              slot: 8
+              layer: 1
+            first_zone_is_positive: true
+            clockwise: true
+            turns: 12
+            phase: 1
+            wire:
+              WireSff:
+                material_conductor:
+                  name: "Copper"
+                slot_filling_factor_electrical: 0.24
+                slot_filling_factor_mechanical: 0.3
+            axial_overhang: ~
+            end_length: ~
+        - Full:
+            first_zone:
+              slot: 2
+              layer: 0
+            second_zone:
+              slot: 9
+              layer: 1
+            first_zone_is_positive: true
+            clockwise: true
+            turns: 12
+            phase: 1
+            wire:
+              WireSff:
+                material_conductor:
+                  name: "Copper"
+                slot_filling_factor_electrical: 0.24
+                slot_filling_factor_mechanical: 0.3
+            axial_overhang: ~
+            end_length: ~
+        - Full:
+            first_zone:
+              slot: 3
+              layer: 0
+            second_zone:
+              slot: 10
+              layer: 1
+            first_zone_is_positive: false
+            clockwise: false
+            turns: 12
+            phase: 3
+            wire:
+              WireSff:
+                material_conductor:
+                  name: "Copper"
+                slot_filling_factor_electrical: 0.24
+                slot_filling_factor_mechanical: 0.3
+            axial_overhang: ~
+            end_length: ~
+        - Full:
+            first_zone:
+              slot: 4
+              layer: 0
+            second_zone:
+              slot: 11
+              layer: 1
+            first_zone_is_positive: false
+            clockwise: false
+            turns: 12
+            phase: 3
+            wire:
+              WireSff:
+                material_conductor:
+                  name: "Copper"
+                slot_filling_factor_electrical: 0.24
+                slot_filling_factor_mechanical: 0.3
+            axial_overhang: ~
+            end_length: ~
+        - Full:
+            first_zone:
+              slot: 5
+              layer: 0
+            second_zone:
+              slot: 12
+              layer: 1
+            first_zone_is_positive: false
+            clockwise: false
+            turns: 12
+            phase: 3
+            wire:
+              WireSff:
+                material_conductor:
+                  name: "Copper"
+                slot_filling_factor_electrical: 0.24
+                slot_filling_factor_mechanical: 0.3
+            axial_overhang: ~
+            end_length: ~
+        - Full:
+            first_zone:
+              slot: 6
+              layer: 0
+            second_zone:
+              slot: 13
+              layer: 1
+            first_zone_is_positive: true
+            clockwise: true
+            turns: 12
+            phase: 2
+            wire:
+              WireSff:
+                material_conductor:
+                  name: "Copper"
+                slot_filling_factor_electrical: 0.24
+                slot_filling_factor_mechanical: 0.3
+            axial_overhang: ~
+            end_length: ~
+        - Full:
+            first_zone:
+              slot: 7
+              layer: 0
+            second_zone:
+              slot: 14
+              layer: 1
+            first_zone_is_positive: true
+            clockwise: true
+            turns: 12
+            phase: 2
+            wire:
+              WireSff:
+                material_conductor:
+                  name: "Copper"
+                slot_filling_factor_electrical: 0.24
+                slot_filling_factor_mechanical: 0.3
+            axial_overhang: ~
+            end_length: ~
+        - Full:
+            first_zone:
+              slot: 8
+              layer: 0
+            second_zone:
+              slot: 15
+              layer: 1
+            first_zone_is_positive: true
+            clockwise: true
+            turns: 12
+            phase: 2
+            wire:
+              WireSff:
+                material_conductor:
+                  name: "Copper"
+                slot_filling_factor_electrical: 0.24
+                slot_filling_factor_mechanical: 0.3
+            axial_overhang: ~
+            end_length: ~
+        - Full:
+            first_zone:
+              slot: 9
+              layer: 0
+            second_zone:
+              slot: 16
+              layer: 1
+            first_zone_is_positive: false
+            clockwise: false
+            turns: 12
+            phase: 1
+            wire:
+              WireSff:
+                material_conductor:
+                  name: "Copper"
+                slot_filling_factor_electrical: 0.24
+                slot_filling_factor_mechanical: 0.3
+            axial_overhang: ~
+            end_length: ~
+        - Full:
+            first_zone:
+              slot: 10
+              layer: 0
+            second_zone:
+              slot: 17
+              layer: 1
+            first_zone_is_positive: false
+            clockwise: false
+            turns: 12
+            phase: 1
+            wire:
+              WireSff:
+                material_conductor:
+                  name: "Copper"
+                slot_filling_factor_electrical: 0.24
+                slot_filling_factor_mechanical: 0.3
+            axial_overhang: ~
+            end_length: ~
+        - Full:
+            first_zone:
+              slot: 11
+              layer: 0
+            second_zone:
+              slot: 0
+              layer: 1
+            first_zone_is_positive: false
+            clockwise: false
+            turns: 12
+            phase: 1
+            wire:
+              WireSff:
+                material_conductor:
+                  name: "Copper"
+                slot_filling_factor_electrical: 0.24
+                slot_filling_factor_mechanical: 0.3
+            axial_overhang: ~
+            end_length: ~
+        - Full:
+            first_zone:
+              slot: 12
+              layer: 0
+            second_zone:
+              slot: 1
+              layer: 1
+            first_zone_is_positive: true
+            clockwise: true
+            turns: 12
+            phase: 3
+            wire:
+              WireSff:
+                material_conductor:
+                  name: "Copper"
+                slot_filling_factor_electrical: 0.24
+                slot_filling_factor_mechanical: 0.3
+            axial_overhang: ~
+            end_length: ~
+        - Full:
+            first_zone:
+              slot: 13
+              layer: 0
+            second_zone:
+              slot: 2
+              layer: 1
+            first_zone_is_positive: true
+            clockwise: true
+            turns: 12
+            phase: 3
+            wire:
+              WireSff:
+                material_conductor:
+                  name: "Copper"
+                slot_filling_factor_electrical: 0.24
+                slot_filling_factor_mechanical: 0.3
+            axial_overhang: ~
+            end_length: ~
+        - Full:
+            first_zone:
+              slot: 14
+              layer: 0
+            second_zone:
+              slot: 3
+              layer: 1
+            first_zone_is_positive: true
+            clockwise: true
+            turns: 12
+            phase: 3
+            wire:
+              WireSff:
+                material_conductor:
+                  name: "Copper"
+                slot_filling_factor_electrical: 0.24
+                slot_filling_factor_mechanical: 0.3
+            axial_overhang: ~
+            end_length: ~
+        - Full:
+            first_zone:
+              slot: 15
+              layer: 0
+            second_zone:
+              slot: 4
+              layer: 1
+            first_zone_is_positive: false
+            clockwise: false
+            turns: 12
+            phase: 2
+            wire:
+              WireSff:
+                material_conductor:
+                  name: "Copper"
+                slot_filling_factor_electrical: 0.24
+                slot_filling_factor_mechanical: 0.3
+            axial_overhang: ~
+            end_length: ~
+        - Full:
+            first_zone:
+              slot: 16
+              layer: 0
+            second_zone:
+              slot: 5
+              layer: 1
+            first_zone_is_positive: false
+            clockwise: false
+            turns: 12
+            phase: 2
+            wire:
+              WireSff:
+                material_conductor:
+                  name: "Copper"
+                slot_filling_factor_electrical: 0.24
+                slot_filling_factor_mechanical: 0.3
+            axial_overhang: ~
+            end_length: ~
+        - Full:
+            first_zone:
+              slot: 17
+              layer: 0
+            second_zone:
+              slot: 6
+              layer: 1
+            first_zone_is_positive: false
+            clockwise: false
+            turns: 12
+            phase: 2
+            wire:
+              WireSff:
+                material_conductor:
+                  name: "Copper"
+                slot_filling_factor_electrical: 0.24
+                slot_filling_factor_mechanical: 0.3
+            axial_overhang: ~
+            end_length: ~
+      coil_layout:
+        MultiVertical: 2
+      parallel_paths: 1
+      connection: Star
+      end_winding_leakage_coefficient: 0.25 # Taken from Ponick, B. - 2008 - Berechnung elektrischer Maschinen
+  surface_magnet: ~
+rotor: 
+  core:
+    air_gap_radius: 4 mm
+    yoke_radius: 0.05 mm
+    axial_length: 48 mm
+    iron_fill_factor: 0.92
+    material:
+      name: NO20-140Y320
+    pole_pairs: 1
+    skew_angle: 0.0 degree
+    air_gap: 
+      AirGapPlain:
+        number_segments: 0
+        air_gap_winding_height: 0 mm
+  winding: ~
+  surface_magnet:
+    magnet:
+      MagnetArcSegment:
+        length: 48 mm
+        thickness: 3.5 mm
+        angle: 180 degree
+        inner_radius: 4 mm
+        material:
+          name: "VACOMAX 225 TP"
+    axial_subdivision: 1
+    cross_section_subdivision: 1
+  sleeve:
+    thickness: 0.8 mm
+    material:
+      name: "Titan"

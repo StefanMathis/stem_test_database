@@ -1,0 +1,25 @@
+---    
+# Magnet material as defined in [Hit16]
+name: NMF-12J 430mT
+relative_permeability: 1.05
+remanence: 
+  VariableFirstOrderTaylor:
+    influencing_quantity_type: Temperature
+    parameters:
+      reference_value: 0.43 T
+      input_offset: 20.0 °C
+      coefficient: -0.1733 % / K # 17,33 % remanence loss per 100 K
+iron_loss_coefficients:
+  hysteresis_coefficient: 0
+  eddy_current_coefficient: 0
+mass_density: 4950.0 kg / m^3 # https://www.bomatec.com/wp-content/uploads/2021/12/BMHFa-3227.pdf
+electrical_resistivity: 1e6 Ohm*m
+intrinsic_coercivity:
+  VariableFirstOrderTaylor:
+    influencing_quantity_type: Temperature
+    parameters:
+      reference_value: 430 kA/m
+      input_offset: 20.0 °C
+      coefficient: 0.11 % / K # 11 % intrinsic coercivity gain per 100 K
+heat_capacity: 700.0 J / kg / K # https://www.bomatec.com/wp-content/uploads/2021/12/BMHFa-3227.pdf
+thermal_conductivity: 4.0 W / m / K # https://www.bomatec.com/wp-content/uploads/2021/12/BMHFa-3227.pdf
