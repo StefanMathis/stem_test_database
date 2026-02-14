@@ -1,0 +1,96 @@
+---
+MotorRot:
+  name: HEFIE2 112L-4
+  stator: 
+    core:
+      air_gap_radius: 51.5 mm
+      yoke_radius: 85 mm
+      axial_length: 165 mm
+      axial_coil_overhang: 6 mm
+      iron_fill_factor: 0.95
+      material:
+        name: "M800-50A"
+      pole_pairs: 2
+      skew_angle: 0.0 deg
+      air_gap: 
+        AirGapSlotted:
+          slots: 36
+          starts_in_slot_middle: false
+          carter_factor_model: Bin12
+          slot:
+            SlotTrapezoidSemi:
+              bottom_width: 6.91 mm
+              opening_width: 2.5 mm
+              height: 17.3 mm
+              opening_height: 0.62 mm
+              angle_slot: 10 deg
+              bottom_radius: 1.2 mm
+              top_radius: 1 mm
+              opening_radius: 0.0 mm
+              consider_tooth_tip_leakage: true
+    winding:
+      WindingDistributed:
+        slots: 36
+        pole_pairs: 2
+        phases: 3
+        layers: 1
+        coil_span_reduction: 0
+        zone_span_variation: 0
+        turns_per_coil: 42
+        parallel_paths: 1
+        connection: Delta
+        end_winding_leakage_coefficient: 0.25
+        wire:
+          WireStranded:
+            strand_list:
+              - wire:
+                  WireRound:
+                    material_conductor:
+                      name: "Copper"
+                    outer_diameter: 0.63 mm
+                    inner_diameter: 0.0 mm
+                    insulation_thickness: 0.04725 mm
+                number_wires: 3
+        zone_plan_method: Tingley
+        concentric_coils: false
+    surface_magnet: ~
+  rotor: 
+    core:
+      air_gap_radius: 51.25 mm
+      yoke_radius: 19 mm
+      axial_length: 165 mm
+      axial_coil_overhang: 0 mm
+      iron_fill_factor: 0.95
+      material:
+        name: "M800-50A"
+      pole_pairs: 2
+      skew_angle: 0.0 deg
+      air_gap: 
+        AirGapSlotted:
+          slots: 28
+          starts_in_slot_middle: false
+          carter_factor_model: Bin12
+          slot:
+            SlotTrapezoidSemi:
+              bottom_width: 0.9727835734461687 mm
+              opening_width: 1.1 mm
+              height: 17.93 mm
+              opening_height: 0.68 mm
+              angle_slot: -360/28 deg
+              bottom_radius: 0.48639178672308433 mm
+              top_radius: 1.88 mm
+              opening_radius: 0.0 mm
+              consider_tooth_tip_leakage: true
+    winding:
+      WindingCage:
+        slots: 28
+        pole_pairs: 2
+        end_winding_leakage_coefficient: 0.35
+        wire:
+          WireBar:
+            material_conductor:
+              name: "Die-cast aluminium"
+        end_ring_width: 11 mm
+        end_ring_height: 22 mm
+        consider_current_displacement: true
+    surface_magnet: ~
