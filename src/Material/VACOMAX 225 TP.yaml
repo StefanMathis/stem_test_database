@@ -7,9 +7,7 @@ Material:
       base_value:  1.07 T
       expansion_point: 20.0 °C
       slope: -0.03 % / K
-  iron_loss_coefficients:
-    hysteresis_coefficient: 0 W/kg
-    eddy_current_coefficient: 0 W/kg
+  iron_losses: 0 W/kg
   mass_density: 8300.0 kg / m^3
   electrical_resistivity: .inf # Neglect eddy current losses in the magnet
   intrinsic_coercivity:

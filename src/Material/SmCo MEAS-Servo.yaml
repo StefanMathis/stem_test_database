@@ -8,9 +8,7 @@ Material:
       base_value: 1.04 T
       expansion_point: 20.0 °C
       slope: -0.035 % / K # 3,5 % remanence loss per 100 K
-  iron_loss_coefficients:
-    hysteresis_coefficient: 0 W / kg
-    eddy_current_coefficient: 0 W / kg
+  iron_losses: 0
   mass_density: 8300.0 kg / m^3
   electrical_resistivity:
     FirstOrderTaylor:

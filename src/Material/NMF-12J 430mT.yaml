@@ -8,9 +8,7 @@ Material:
       base_value: 0.43 T
       expansion_point: 20.0 °C
       slope: -0.1733 % / K # 17,33 % remanence loss per 100 K
-  iron_loss_coefficients:
-    hysteresis_coefficient: 0
-    eddy_current_coefficient: 0
+  iron_losses: 0
   mass_density: 4950.0 kg / m^3 # https://www.bomatec.com/wp-content/uploads/2021/12/BMHFa-3227.pdf
   electrical_resistivity: 1e6 Ohm*m
   intrinsic_coercivity:
