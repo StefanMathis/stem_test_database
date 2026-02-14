@@ -1,31 +1,26 @@
----    
-# Magnet material used in the MEAS servo motor
-name: SmCo MEAS-Servo
-relative_permeability: 1.05
-remanence: 
-  VariableFirstOrderTaylor:
-    influencing_quantity_type: Temperature
-    parameters:
-      reference_value: 1.04 T
-      input_offset: 20.0 °C
-      coefficient: -0.035 % / K # 3,5 % remanence loss per 100 K
-iron_loss_coefficients:
-  hysteresis_coefficient: 0 W / kg
-  eddy_current_coefficient: 0 W / kg
-mass_density: 8300.0 kg / m^3
-electrical_resistivity:
-  VariableFirstOrderTaylor:
-    influencing_quantity_type: Temperature
-    parameters:
-      reference_value: 0.8e-6 Ohm*m # Value from Prof. Huth
-      input_offset: 20.0 °C
-      coefficient: 0.375 % / K # 37,5 % resistance gain per 100 K
-intrinsic_coercivity:
-  VariableFirstOrderTaylor:
-    influencing_quantity_type: Temperature
-    parameters:
-      reference_value: 2e6 A/m
-      input_offset: 20.0 °C
-      coefficient: -0.11 % / K # 11 % intrinsic coercivity loss per 100 K
-heat_capacity: 370.0 J / kg / K
-thermal_conductivity: 10.0 W / m / K
+--- 
+Material:   
+  # Magnet material used in the TU KL MEAS servo motor
+  name: SmCo MEAS-Servo
+  relative_permeability: 1.05
+  remanence: 
+    FirstOrderTaylor:
+      base_value: 1.04 T
+      expansion_point: 20.0 °C
+      slope: -0.035 % / K # 3,5 % remanence loss per 100 K
+  iron_loss_coefficients:
+    hysteresis_coefficient: 0 W / kg
+    eddy_current_coefficient: 0 W / kg
+  mass_density: 8300.0 kg / m^3
+  electrical_resistivity:
+    FirstOrderTaylor:
+      base_value: 0.8e-6 Ohm*m
+      expansion_point: 20.0 °C
+      slope: 0.375 % / K # 37,5 % resistance gain per 100 K
+  intrinsic_coercivity:
+    FirstOrderTaylor:
+      base_value: 2e6 A/m
+      expansion_point: 20.0 °C
+      slope: -0.11 % / K # 11 % intrinsic coercivity loss per 100 K
+  heat_capacity: 370.0 J / kg / K
+  thermal_conductivity: 10.0 W / m / K

@@ -1,23 +1,24 @@
----    
-name: M330-35A 
-relative_permeability:
-  field_strength: '[
-      0.0, 12.0, 23.0, 33.0, 42.0, 57.0, 66.0, 78.0, 92.0, 111.0, 139.0, 185.0, 285.0, 601.0,
-      1632.0, 3689.0, 6871.0, 11650.0, 19447.0, 30667.0, 47284.0, 71429.0, 105915.0, 154405.0,
-      221611.0, 225228.0
-    ] A/m'
-  flux_density: '[
-      0.0, 0.097, 0.194, 0.291, 0.388, 0.582, 0.679, 0.776, 0.873, 0.97, 1.067, 1.164, 1.261,
-      1.359, 1.457, 1.557, 1.658, 1.761, 1.867, 1.967, 2.067, 2.167, 2.267, 2.367, 2.467, 2.472
-    ] T'
-  polarization: 
-  iron_fill_factor: 0.95
-remanence: 0.0 T
-iron_loss_coefficients:
-  hysteresis_coefficient: 2.7 W/kg
-  eddy_current_coefficient: 0.675 W/kg
-intrinsic_coercivity: 5.0 A/m # value from https://www.emt-net.de/elektrobleche/Allgemeine-Informationen-zu-Elektroblechen.pdf
-mass_density: 7650.0 kg / m^3 # value from https://www.emt-net.de/elektrobleche/Allgemeine-Informationen-zu-Elektroblechen.pdf
-electrical_resistivity: 0.48e-6 Ohm * m # value from https://www.emt-net.de/elektrobleche/Allgemeine-Informationen-zu-Elektroblechen.pdf
-heat_capacity: 435.0 J / kg / K # value from [Kipp08]
-thermal_conductivity: 30.0 W / m / K # value from https://www.energy.gov/sites/prod/files/2014/03/f10/ape030_bennion_2012_o.pdf
+---   
+Material: 
+  name: M330-35A 
+  relative_permeability:
+    field_strength: '[
+        0.0, 12.0, 23.0, 33.0, 42.0, 57.0, 66.0, 78.0, 92.0, 111.0, 139.0, 185.0, 285.0, 601.0,
+        1632.0, 3689.0, 6871.0, 11650.0, 19447.0, 30667.0, 47284.0, 71429.0, 105915.0, 154405.0,
+        221611.0, 225228.0
+      ] A/m'
+    flux_density: '[
+        0.0, 0.097, 0.194, 0.291, 0.388, 0.582, 0.679, 0.776, 0.873, 0.97, 1.067, 1.164, 1.261,
+        1.359, 1.457, 1.557, 1.658, 1.761, 1.867, 1.967, 2.067, 2.167, 2.267, 2.367, 2.467, 2.472
+      ] T'
+    polarization: 
+    iron_fill_factor: 0.95
+  remanence: 0.0 T
+  iron_loss_coefficients:
+    hysteresis_coefficient: 2.7 W/kg
+    eddy_current_coefficient: 0.675 W/kg
+  intrinsic_coercivity: 5.0 A/m # value from https://www.emt-net.de/elektrobleche/Allgemeine-Informationen-zu-Elektroblechen.pdf
+  mass_density: 7650.0 kg / m^3 # value from https://www.emt-net.de/elektrobleche/Allgemeine-Informationen-zu-Elektroblechen.pdf
+  electrical_resistivity: 0.48e-6 Ohm * m # value from https://www.emt-net.de/elektrobleche/Allgemeine-Informationen-zu-Elektroblechen.pdf
+  heat_capacity: 435.0 J / kg / K # value from https://openhsu.ub.hsu-hh.de/entities/publication/358
+  thermal_conductivity: 30.0 W / m / K # value from https://www.energy.gov/sites/prod/files/2014/03/f10/ape030_bennion_2012_o.pdf
