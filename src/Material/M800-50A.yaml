@@ -16,7 +16,7 @@ Material:
   iron_losses:
     JordanModel:
       - frequency: 50.0 Hz
-        flux_densities_and_specific_losses:
+        characteristic:
           - flux_density: 0.5 T
             specific_loss: 0.86 W/kg
           - flux_density: 0.6 T
@@ -48,7 +48,7 @@ Material:
           - flux_density: 1.9 T
             specific_loss: 8.12 W/kg
       - frequency: 100.0 Hz
-        flux_densities_and_specific_losses:
+        characteristic:
           - flux_density: 0.5 T
             specific_loss: 1.93 W/kg
           - flux_density: 0.6 T
@@ -72,7 +72,7 @@ Material:
           - flux_density: 1.5 T
             specific_loss: 13.56 W/kg
       - frequency: 200.0 Hz
-        flux_densities_and_specific_losses:
+        characteristic:
           - flux_density: 0.5 T
             specific_loss: 4.63 W/kg
           - flux_density: 0.6 T
