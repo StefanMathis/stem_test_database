@@ -45,7 +45,7 @@ MotorRot:
             strand_list:
               - wire:
                   WireRound:
-                    material_conductor:
+                    conductor_material:
                       name: "Copper"
                     outer_diameter: 0.63 mm
                     inner_diameter: 0.0 mm
@@ -88,7 +88,7 @@ MotorRot:
         end_winding_leakage_coefficient: 0.35
         wire:
           WireBar:
-            material_conductor:
+            conductor_material:
               name: "Die-cast aluminium"
         end_ring_width: 11 mm
         end_ring_height: 22 mm

@@ -38,7 +38,7 @@ MotorRot:
         end_winding_leakage_coefficient: 0.25
         wire:
           WireSff:
-            material_conductor:
+            conductor_material:
               name: "Copper"
             slot_filling_factor_electrical: 0.375
             slot_filling_factor_mechanical: 0.4

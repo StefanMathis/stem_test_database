@@ -45,7 +45,7 @@ MotorRot:
             strand_list:
               - wire:
                   WireRound:
-                    material_conductor:
+                    conductor_material:
                       name: "Copper"
                     outer_diameter: 0.67 mm
                     inner_diameter: 0.0 mm
@@ -53,7 +53,7 @@ MotorRot:
                 number_wires: 2
               - wire:
                   WireRound:
-                    material_conductor:
+                    conductor_material:
                       name: "Copper"
                     outer_diameter: 0.71 mm
                     inner_diameter: 0.0 mm
@@ -124,7 +124,7 @@ MotorRot:
         end_winding_leakage_coefficient: 0.35
         wire:
           WireRectangular:
-            material_conductor:
+            conductor_material:
               name: Copper
             height: 5.5 mm
             width: 6.7 mm
