@@ -52,8 +52,8 @@ MotorRot:
                 WireSff:
                   conductor_material:
                     name: "Copper"
-                  slot_filling_factor_electrical: 0.24
-                  slot_filling_factor_mechanical: 0.3
+                  slot_fill_factor_conductor: 0.24
+                  slot_fill_factor_overall: 0.3
               axial_overhang: ~
               end_length: ~
           - Full:
@@ -71,8 +71,8 @@ MotorRot:
                 WireSff:
                   conductor_material:
                     name: "Copper"
-                  slot_filling_factor_electrical: 0.24
-                  slot_filling_factor_mechanical: 0.3
+                  slot_fill_factor_conductor: 0.24
+                  slot_fill_factor_overall: 0.3
               axial_overhang: ~
               end_length: ~
           - Full:
@@ -90,8 +90,8 @@ MotorRot:
                 WireSff:
                   conductor_material:
                     name: "Copper"
-                  slot_filling_factor_electrical: 0.24
-                  slot_filling_factor_mechanical: 0.3
+                  slot_fill_factor_conductor: 0.24
+                  slot_fill_factor_overall: 0.3
               axial_overhang: ~
               end_length: ~
           - Full:
@@ -109,8 +109,8 @@ MotorRot:
                 WireSff:
                   conductor_material:
                     name: "Copper"
-                  slot_filling_factor_electrical: 0.24
-                  slot_filling_factor_mechanical: 0.3
+                  slot_fill_factor_conductor: 0.24
+                  slot_fill_factor_overall: 0.3
               axial_overhang: ~
               end_length: ~
           - Full:
@@ -128,8 +128,8 @@ MotorRot:
                 WireSff:
                   conductor_material:
                     name: "Copper"
-                  slot_filling_factor_electrical: 0.24
-                  slot_filling_factor_mechanical: 0.3
+                  slot_fill_factor_conductor: 0.24
+                  slot_fill_factor_overall: 0.3
               axial_overhang: ~
               end_length: ~
           - Full:
@@ -147,8 +147,8 @@ MotorRot:
                 WireSff:
                   conductor_material:
                     name: "Copper"
-                  slot_filling_factor_electrical: 0.24
-                  slot_filling_factor_mechanical: 0.3
+                  slot_fill_factor_conductor: 0.24
+                  slot_fill_factor_overall: 0.3
               axial_overhang: ~
               end_length: ~
           - Full:
@@ -166,8 +166,8 @@ MotorRot:
                 WireSff:
                   conductor_material:
                     name: "Copper"
-                  slot_filling_factor_electrical: 0.24
-                  slot_filling_factor_mechanical: 0.3
+                  slot_fill_factor_conductor: 0.24
+                  slot_fill_factor_overall: 0.3
               axial_overhang: ~
               end_length: ~
           - Full:
@@ -185,8 +185,8 @@ MotorRot:
                 WireSff:
                   conductor_material:
                     name: "Copper"
-                  slot_filling_factor_electrical: 0.24
-                  slot_filling_factor_mechanical: 0.3
+                  slot_fill_factor_conductor: 0.24
+                  slot_fill_factor_overall: 0.3
               axial_overhang: ~
               end_length: ~
           - Full:
@@ -204,8 +204,8 @@ MotorRot:
                 WireSff:
                   conductor_material:
                     name: "Copper"
-                  slot_filling_factor_electrical: 0.24
-                  slot_filling_factor_mechanical: 0.3
+                  slot_fill_factor_conductor: 0.24
+                  slot_fill_factor_overall: 0.3
               axial_overhang: ~
               end_length: ~
           - Full:
@@ -223,8 +223,8 @@ MotorRot:
                 WireSff:
                   conductor_material:
                     name: "Copper"
-                  slot_filling_factor_electrical: 0.24
-                  slot_filling_factor_mechanical: 0.3
+                  slot_fill_factor_conductor: 0.24
+                  slot_fill_factor_overall: 0.3
               axial_overhang: ~
               end_length: ~
           - Full:
@@ -242,8 +242,8 @@ MotorRot:
                 WireSff:
                   conductor_material:
                     name: "Copper"
-                  slot_filling_factor_electrical: 0.24
-                  slot_filling_factor_mechanical: 0.3
+                  slot_fill_factor_conductor: 0.24
+                  slot_fill_factor_overall: 0.3
               axial_overhang: ~
               end_length: ~
           - Full:
@@ -261,8 +261,8 @@ MotorRot:
                 WireSff:
                   conductor_material:
                     name: "Copper"
-                  slot_filling_factor_electrical: 0.24
-                  slot_filling_factor_mechanical: 0.3
+                  slot_fill_factor_conductor: 0.24
+                  slot_fill_factor_overall: 0.3
               axial_overhang: ~
               end_length: ~
           - Full:
@@ -280,8 +280,8 @@ MotorRot:
                 WireSff:
                   conductor_material:
                     name: "Copper"
-                  slot_filling_factor_electrical: 0.24
-                  slot_filling_factor_mechanical: 0.3
+                  slot_fill_factor_conductor: 0.24
+                  slot_fill_factor_overall: 0.3
               axial_overhang: ~
               end_length: ~
           - Full:
@@ -299,8 +299,8 @@ MotorRot:
                 WireSff:
                   conductor_material:
                     name: "Copper"
-                  slot_filling_factor_electrical: 0.24
-                  slot_filling_factor_mechanical: 0.3
+                  slot_fill_factor_conductor: 0.24
+                  slot_fill_factor_overall: 0.3
               axial_overhang: ~
               end_length: ~
           - Full:
@@ -318,8 +318,8 @@ MotorRot:
                 WireSff:
                   conductor_material:
                     name: "Copper"
-                  slot_filling_factor_electrical: 0.24
-                  slot_filling_factor_mechanical: 0.3
+                  slot_fill_factor_conductor: 0.24
+                  slot_fill_factor_overall: 0.3
               axial_overhang: ~
               end_length: ~
           - Full:
@@ -337,8 +337,8 @@ MotorRot:
                 WireSff:
                   conductor_material:
                     name: "Copper"
-                  slot_filling_factor_electrical: 0.24
-                  slot_filling_factor_mechanical: 0.3
+                  slot_fill_factor_conductor: 0.24
+                  slot_fill_factor_overall: 0.3
               axial_overhang: ~
               end_length: ~
           - Full:
@@ -356,8 +356,8 @@ MotorRot:
                 WireSff:
                   conductor_material:
                     name: "Copper"
-                  slot_filling_factor_electrical: 0.24
-                  slot_filling_factor_mechanical: 0.3
+                  slot_fill_factor_conductor: 0.24
+                  slot_fill_factor_overall: 0.3
               axial_overhang: ~
               end_length: ~
           - Full:
@@ -375,8 +375,8 @@ MotorRot:
                 WireSff:
                   conductor_material:
                     name: "Copper"
-                  slot_filling_factor_electrical: 0.24
-                  slot_filling_factor_mechanical: 0.3
+                  slot_fill_factor_conductor: 0.24
+                  slot_fill_factor_overall: 0.3
               axial_overhang: ~
               end_length: ~
         coil_layout:

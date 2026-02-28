@@ -40,8 +40,8 @@ MotorRot:
           WireSff:
             conductor_material:
               name: "Copper"
-            slot_filling_factor_electrical: 0.375
-            slot_filling_factor_mechanical: 0.4
+            slot_fill_factor_conductor: 0.375
+            slot_fill_factor_overall: 0.4
         zone_plan_method: Tingley
     surface_magnet: ~
     sleeve:
