@@ -1,6 +1,6 @@
 ---
 MotorRot:
-  name: FLS-364 V2
+  name: FLS-364 V1
   stator: 
     core:
       air_gap_radius: 55 mm
@@ -36,15 +36,15 @@ MotorRot:
         layers: 1
         coil_span_reduction: 0
         zone_span_variation: 0
-        turns_per_coil: 31
+        turns_per_coil: 30
         parallel_paths: 1
         connection: Star
         end_winding_leakage_coefficient: 0.25
         wire:
-          WireStranded:
+          StrandedWire:
             strand_list:
               - wire:
-                  WireRound:
+                  RoundWire:
                     conductor_material:
                       name: "Copper"
                     outer_diameter: 0.67 mm
@@ -52,7 +52,7 @@ MotorRot:
                     insulation_thickness: 0.05025 mm
                 number_wires: 2
               - wire:
-                  WireRound:
+                  RoundWire:
                     conductor_material:
                       name: "Copper"
                     outer_diameter: 0.71 mm
@@ -76,7 +76,7 @@ MotorRot:
       air_gap: 
         AirGapSlotted:
           slots: 28
-          starts_in_slot_middle: true
+          starts_in_slot_middle: false
           carter_factor_model: Bin12
           slot:
           SlotTrapezoidSemi:
@@ -104,31 +104,31 @@ MotorRot:
               opening_radius: 0.0 mm
               consider_tooth_tip_leakage: true
       flux_barrier: 
-        FluxBarrierV2Def:
-          distance_yoke: 6.0 mm
-          air_gap_relief_path: 4 mm
-          relief_path_width: 3.5 mm
-          opening_angle: 90 deg
-          magnet_space_width: 5 mm
-          magnet_space_height: 15 mm
+        FluxBarrierV1Def:
+          distance_yoke: 8.0 mm
+          air_gap_relief_path: 3.5 mm
+          relief_path_length: 1.33 mm
+          relief_path_width: 4 mm
+          opening_angle: 135 deg
+          magnet_space_width: 6 mm
+          magnet_space_height: 12 mm
           glue_gap: 0.2 mm
-          width_leakage_path: 1 mm
-          relief_path_length: 2.6 mm
-          fillet_q_side_leakage_space: 3 mm
+          width_leakage_path: 1.0 mm
           magnet_material: 
             name: NMF-12J 430mT
+          fillet_q_side_leakage_space:
     winding:
       WindingCage:
         slots: 28
         pole_pairs: 2
         end_winding_leakage_coefficient: 0.35
         wire:
-          WireRectangular:
+          RectangularWire:
             conductor_material:
               name: Copper
             height: 5.5 mm
             width: 6.7 mm
-            insulation_thickness: 0.0
+            insulation_thickness: 0.0 mm
         end_ring_width: 11 mm
         end_ring_height: 11.2 mm
         consider_current_displacement: true

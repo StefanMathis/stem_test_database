@@ -1,6 +1,6 @@
 ---
 MotorRot:
-  name: MSD-1510 DL
+  name: MSD-3610 SL
   stator: 
     core:
       air_gap_radius: 38.2 mm
@@ -11,19 +11,19 @@ MotorRot:
       material:
         name: "M330-35A"
       pole_pairs: 5
-      skew_angle: 15 deg
+      skew_angle: 0.0 deg
       air_gap: 
         AirGapSlotted:
-          slots: 15
+          slots: 36
           starts_in_slot_middle: false
           carter_factor_model: Bin12
           slot:
             SlotTrapezoidSemi:
-              tooth_width: 7.4 mm
+              tooth_width: 3.2 mm
               air_gap_radius: 38.2 mm
               yoke_radius: 63 mm
-              slots: 15
-              opening_width: 4 mm
+              slots: 36
+              opening_width: 2 mm
               height: 19.35 mm
               opening_height: 1 mm
               bottom_radius: 0.0 mm
@@ -31,22 +31,23 @@ MotorRot:
               opening_radius: 0.0 mm
               consider_tooth_tip_leakage: false
     winding:
-      WindingToothCoil:
-        slots: 15
+      WindingDistributed:
+        slots: 36
         pole_pairs: 5
         phases: 3
-        layers: 2
-        turns_per_coil: 93
+        layers: 1
+        turns_per_coil: 60
         parallel_paths: 1
         connection: Star
         end_winding_leakage_coefficient: 0.25
         wire:
-          WireSff:
+          SffWire:
             conductor_material:
               name: "Copper"
-            slot_fill_factor_conductor: 0.375
-            slot_fill_factor_overall: 0.4
+            slot_fill_factor_conductor: 0.33
+            slot_fill_factor_overall: 0.352
         zone_plan_method: Tingley
+        concentric_coils: false
     surface_magnet: ~
   rotor: 
     core:

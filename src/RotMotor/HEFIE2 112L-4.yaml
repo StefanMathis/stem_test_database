@@ -41,10 +41,10 @@ MotorRot:
         connection: Delta
         end_winding_leakage_coefficient: 0.25
         wire:
-          WireStranded:
+          StrandedWire:
             strand_list:
               - wire:
-                  WireRound:
+                  RoundWire:
                     conductor_material:
                       name: "Copper"
                     outer_diameter: 0.63 mm
@@ -87,7 +87,7 @@ MotorRot:
         pole_pairs: 2
         end_winding_leakage_coefficient: 0.35
         wire:
-          WireBar:
+          CastWire:
             conductor_material:
               name: "Die-cast aluminium"
         end_ring_width: 11 mm

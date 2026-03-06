@@ -41,7 +41,7 @@ MotorRot:
         connection: Star
         end_winding_leakage_coefficient: 0.25
         wire:
-          WireSff:
+          SffWire:
             conductor_material:
               name: "Copper"
             slot_fill_factor_conductor: 0.33

@@ -40,16 +40,16 @@ MotorRot:
           - Full:
               first_zone:
                 slot: 0
-                layer: 0
+                layer: 1
               second_zone:
-                slot: 7
+                slot: 9
                 layer: 1
               first_zone_is_positive: true
               clockwise: true
               turns: 12
               phase: 1
               wire:
-                WireSff:
+                SffWire:
                   conductor_material:
                     name: "Copper"
                   slot_fill_factor_conductor: 0.24
@@ -59,16 +59,16 @@ MotorRot:
           - Full:
               first_zone:
                 slot: 1
-                layer: 0
+                layer: 1
               second_zone:
-                slot: 8
+                slot: 10
                 layer: 1
               first_zone_is_positive: true
               clockwise: true
               turns: 12
               phase: 1
               wire:
-                WireSff:
+                SffWire:
                   conductor_material:
                     name: "Copper"
                   slot_fill_factor_conductor: 0.24
@@ -78,16 +78,16 @@ MotorRot:
           - Full:
               first_zone:
                 slot: 2
-                layer: 0
+                layer: 1
               second_zone:
-                slot: 9
+                slot: 11
                 layer: 1
               first_zone_is_positive: true
               clockwise: true
               turns: 12
               phase: 1
               wire:
-                WireSff:
+                SffWire:
                   conductor_material:
                     name: "Copper"
                   slot_fill_factor_conductor: 0.24
@@ -97,16 +97,16 @@ MotorRot:
           - Full:
               first_zone:
                 slot: 3
-                layer: 0
+                layer: 1
               second_zone:
-                slot: 10
+                slot: 12
                 layer: 1
               first_zone_is_positive: false
               clockwise: false
               turns: 12
               phase: 3
               wire:
-                WireSff:
+                SffWire:
                   conductor_material:
                     name: "Copper"
                   slot_fill_factor_conductor: 0.24
@@ -116,16 +116,16 @@ MotorRot:
           - Full:
               first_zone:
                 slot: 4
-                layer: 0
+                layer: 1
               second_zone:
-                slot: 11
+                slot: 13
                 layer: 1
               first_zone_is_positive: false
               clockwise: false
               turns: 12
               phase: 3
               wire:
-                WireSff:
+                SffWire:
                   conductor_material:
                     name: "Copper"
                   slot_fill_factor_conductor: 0.24
@@ -135,16 +135,16 @@ MotorRot:
           - Full:
               first_zone:
                 slot: 5
-                layer: 0
+                layer: 1
               second_zone:
-                slot: 12
+                slot: 14
                 layer: 1
               first_zone_is_positive: false
               clockwise: false
               turns: 12
               phase: 3
               wire:
-                WireSff:
+                SffWire:
                   conductor_material:
                     name: "Copper"
                   slot_fill_factor_conductor: 0.24
@@ -154,16 +154,16 @@ MotorRot:
           - Full:
               first_zone:
                 slot: 6
-                layer: 0
+                layer: 1
               second_zone:
-                slot: 13
+                slot: 15
                 layer: 1
               first_zone_is_positive: true
               clockwise: true
               turns: 12
               phase: 2
               wire:
-                WireSff:
+                SffWire:
                   conductor_material:
                     name: "Copper"
                   slot_fill_factor_conductor: 0.24
@@ -173,16 +173,16 @@ MotorRot:
           - Full:
               first_zone:
                 slot: 7
-                layer: 0
+                layer: 1
               second_zone:
-                slot: 14
+                slot: 16
                 layer: 1
               first_zone_is_positive: true
               clockwise: true
               turns: 12
               phase: 2
               wire:
-                WireSff:
+                SffWire:
                   conductor_material:
                     name: "Copper"
                   slot_fill_factor_conductor: 0.24
@@ -192,187 +192,16 @@ MotorRot:
           - Full:
               first_zone:
                 slot: 8
-                layer: 0
-              second_zone:
-                slot: 15
                 layer: 1
-              first_zone_is_positive: true
-              clockwise: true
-              turns: 12
-              phase: 2
-              wire:
-                WireSff:
-                  conductor_material:
-                    name: "Copper"
-                  slot_fill_factor_conductor: 0.24
-                  slot_fill_factor_overall: 0.3
-              axial_overhang: ~
-              end_length: ~
-          - Full:
-              first_zone:
-                slot: 9
-                layer: 0
-              second_zone:
-                slot: 16
-                layer: 1
-              first_zone_is_positive: false
-              clockwise: false
-              turns: 12
-              phase: 1
-              wire:
-                WireSff:
-                  conductor_material:
-                    name: "Copper"
-                  slot_fill_factor_conductor: 0.24
-                  slot_fill_factor_overall: 0.3
-              axial_overhang: ~
-              end_length: ~
-          - Full:
-              first_zone:
-                slot: 10
-                layer: 0
               second_zone:
                 slot: 17
                 layer: 1
-              first_zone_is_positive: false
-              clockwise: false
-              turns: 12
-              phase: 1
-              wire:
-                WireSff:
-                  conductor_material:
-                    name: "Copper"
-                  slot_fill_factor_conductor: 0.24
-                  slot_fill_factor_overall: 0.3
-              axial_overhang: ~
-              end_length: ~
-          - Full:
-              first_zone:
-                slot: 11
-                layer: 0
-              second_zone:
-                slot: 0
-                layer: 1
-              first_zone_is_positive: false
-              clockwise: false
-              turns: 12
-              phase: 1
-              wire:
-                WireSff:
-                  conductor_material:
-                    name: "Copper"
-                  slot_fill_factor_conductor: 0.24
-                  slot_fill_factor_overall: 0.3
-              axial_overhang: ~
-              end_length: ~
-          - Full:
-              first_zone:
-                slot: 12
-                layer: 0
-              second_zone:
-                slot: 1
-                layer: 1
               first_zone_is_positive: true
               clockwise: true
               turns: 12
-              phase: 3
-              wire:
-                WireSff:
-                  conductor_material:
-                    name: "Copper"
-                  slot_fill_factor_conductor: 0.24
-                  slot_fill_factor_overall: 0.3
-              axial_overhang: ~
-              end_length: ~
-          - Full:
-              first_zone:
-                slot: 13
-                layer: 0
-              second_zone:
-                slot: 2
-                layer: 1
-              first_zone_is_positive: true
-              clockwise: true
-              turns: 12
-              phase: 3
-              wire:
-                WireSff:
-                  conductor_material:
-                    name: "Copper"
-                  slot_fill_factor_conductor: 0.24
-                  slot_fill_factor_overall: 0.3
-              axial_overhang: ~
-              end_length: ~
-          - Full:
-              first_zone:
-                slot: 14
-                layer: 0
-              second_zone:
-                slot: 3
-                layer: 1
-              first_zone_is_positive: true
-              clockwise: true
-              turns: 12
-              phase: 3
-              wire:
-                WireSff:
-                  conductor_material:
-                    name: "Copper"
-                  slot_fill_factor_conductor: 0.24
-                  slot_fill_factor_overall: 0.3
-              axial_overhang: ~
-              end_length: ~
-          - Full:
-              first_zone:
-                slot: 15
-                layer: 0
-              second_zone:
-                slot: 4
-                layer: 1
-              first_zone_is_positive: false
-              clockwise: false
-              turns: 12
               phase: 2
               wire:
-                WireSff:
-                  conductor_material:
-                    name: "Copper"
-                  slot_fill_factor_conductor: 0.24
-                  slot_fill_factor_overall: 0.3
-              axial_overhang: ~
-              end_length: ~
-          - Full:
-              first_zone:
-                slot: 16
-                layer: 0
-              second_zone:
-                slot: 5
-                layer: 1
-              first_zone_is_positive: false
-              clockwise: false
-              turns: 12
-              phase: 2
-              wire:
-                WireSff:
-                  conductor_material:
-                    name: "Copper"
-                  slot_fill_factor_conductor: 0.24
-                  slot_fill_factor_overall: 0.3
-              axial_overhang: ~
-              end_length: ~
-          - Full:
-              first_zone:
-                slot: 17
-                layer: 0
-              second_zone:
-                slot: 6
-                layer: 1
-              first_zone_is_positive: false
-              clockwise: false
-              turns: 12
-              phase: 2
-              wire:
-                WireSff:
+                SffWire:
                   conductor_material:
                     name: "Copper"
                   slot_fill_factor_conductor: 0.24
@@ -383,7 +212,7 @@ MotorRot:
           MultiVertical: 2
         parallel_paths: 1
         connection: Star
-        end_winding_leakage_coefficient: 0.25 # Taken from Ponick, B. - 2008 - Berechnung elektrischer Maschinen
+        end_winding_leakage_coefficient: 0.3 # Taken from Ponick, B. - 2008 - Berechnung elektrischer Maschinen
     surface_magnet: ~
   rotor: 
     core:

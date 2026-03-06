@@ -41,10 +41,10 @@ MotorRot:
         connection: Star
         end_winding_leakage_coefficient: 0.25
         wire:
-          WireStranded:
+          StrandedWire:
             strand_list:
               - wire:
-                  WireRound:
+                  RoundWire:
                     conductor_material:
                       name: "Copper"
                     outer_diameter: 0.67 mm
@@ -52,7 +52,7 @@ MotorRot:
                     insulation_thickness: 0.05025 mm
                 number_wires: 2
               - wire:
-                  WireRound:
+                  RoundWire:
                     conductor_material:
                       name: "Copper"
                     outer_diameter: 0.71 mm
@@ -105,12 +105,12 @@ MotorRot:
               consider_tooth_tip_leakage: true
       flux_barrier: 
         FluxBarrierV2Def:
-          distance_yoke: 8.4 mm
+          distance_yoke: 6.0 mm
           air_gap_relief_path: 4 mm
           relief_path_width: 3.5 mm
-          opening_angle: 180 deg
-          magnet_space_width: 10 mm
-          magnet_space_height: 20 mm
+          opening_angle: 90 deg
+          magnet_space_width: 5 mm
+          magnet_space_height: 15 mm
           glue_gap: 0.2 mm
           width_leakage_path: 1 mm
           relief_path_length: 2.6 mm
@@ -123,7 +123,7 @@ MotorRot:
         pole_pairs: 2
         end_winding_leakage_coefficient: 0.35
         wire:
-          WireRectangular:
+          RectangularWire:
             conductor_material:
               name: Copper
             height: 5.5 mm

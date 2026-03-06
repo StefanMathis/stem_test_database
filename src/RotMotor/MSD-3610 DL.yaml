@@ -1,6 +1,6 @@
 ---
 MotorRot:
-  name: MSD-2410 SL
+  name: MSD-3610 DL
   stator: 
     core:
       air_gap_radius: 38.2 mm
@@ -14,15 +14,15 @@ MotorRot:
       skew_angle: 0.0 deg
       air_gap: 
         AirGapSlotted:
-          slots: 24
+          slots: 36
           starts_in_slot_middle: false
           carter_factor_model: Bin12
           slot:
             SlotTrapezoidSemi:
-              tooth_width: 4.6 mm
+              tooth_width: 3.2 mm
               air_gap_radius: 38.2 mm
               yoke_radius: 63 mm
-              slots: 24
+              slots: 36
               opening_width: 2 mm
               height: 19.35 mm
               opening_height: 1 mm
@@ -32,16 +32,16 @@ MotorRot:
               consider_tooth_tip_leakage: false
     winding:
       WindingDistributed:
-        slots: 24
+        slots: 36
         pole_pairs: 5
         phases: 3
-        layers: 1
-        turns_per_coil: 92
+        layers: 2
+        turns_per_coil: 33
         parallel_paths: 1
         connection: Star
         end_winding_leakage_coefficient: 0.25
         wire:
-          WireSff:
+          SffWire:
             conductor_material:
               name: "Copper"
             slot_fill_factor_conductor: 0.33
