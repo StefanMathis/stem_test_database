@@ -74,8 +74,8 @@ MotorRot:
           fillet: 0.0 mm
           material:
             name: "SmCo MEAS-Servo"
-      axial_subdivision: 3
-      cross_section_subdivision: 3
+      num_axial: 3
+      num_tangential: 3
     sleeve:
       thickness: 1 mm
       material:

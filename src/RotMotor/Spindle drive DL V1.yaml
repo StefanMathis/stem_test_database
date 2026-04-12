@@ -409,8 +409,8 @@ MotorRot:
           inner_radius: 4 mm
           material:
             name: "VACOMAX 225 TP"
-      axial_subdivision: 1
-      cross_section_subdivision: 1
+      num_axial: 1
+      num_tangential: 1
     sleeve:
       thickness: 0.8 mm
       material:
