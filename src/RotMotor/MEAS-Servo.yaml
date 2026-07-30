@@ -55,7 +55,7 @@ MotorRot:
       pole_pairs: 5
       skew_angle: 0.0 deg
       air_gap: 
-        AirGapStraightIndents:
+        StraightIndentsAirGap:
           number_segments: 0
           indent_width: 5.8 mm
           indent_depth: 0.0 mm

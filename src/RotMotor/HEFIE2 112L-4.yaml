@@ -82,7 +82,7 @@ MotorRot:
               opening_radius: 0.0 mm
               consider_tooth_tip_leakage: true
     winding:
-      WindingCage:
+      SquirrelCageWinding:
         slots: 28
         pole_pairs: 2
         end_winding_leakage_coefficient: 0.35

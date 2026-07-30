@@ -118,7 +118,7 @@ MotorRot:
           magnet_material: 
             name: NMF-12J 430mT
     winding:
-      WindingCage:
+      SquirrelCageWinding:
         slots: 28
         pole_pairs: 2
         end_winding_leakage_coefficient: 0.35

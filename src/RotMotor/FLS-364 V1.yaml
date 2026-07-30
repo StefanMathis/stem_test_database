@@ -104,7 +104,7 @@ MotorRot:
               opening_radius: 0.0 mm
               consider_tooth_tip_leakage: true
       flux_barrier: 
-        FluxBarrierV1Def:
+        FluxBarrierV1Builder:
           distance_yoke: 4.5 mm
           air_gap_relief_path: 3.5 mm
           relief_path_length: 1.33 mm
@@ -118,7 +118,7 @@ MotorRot:
             name: NMF-12J 430mT
           fillet_q_side_leakage_space:
     winding:
-      WindingCage:
+      SquirrelCageWinding:
         slots: 28
         pole_pairs: 2
         end_winding_leakage_coefficient: 0.35
