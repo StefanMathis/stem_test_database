@@ -397,7 +397,7 @@ MotorRot:
       skew_angle: 0.0 degree
       air_gap: 
         AirGapPlain:
-          number_segments: 0
+          num_segments: 0
           air_gap_winding_height: 0 mm
     winding: ~
     surface_magnet:
