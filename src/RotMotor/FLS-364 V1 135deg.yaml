@@ -116,7 +116,6 @@ MotorRot:
           width_leakage_path: 1.0 mm
           magnet_material: 
             name: NMF-12J 430mT
-          fillet_q_side_leakage_space:
     winding:
       SquirrelCageWinding:
         slots: 28

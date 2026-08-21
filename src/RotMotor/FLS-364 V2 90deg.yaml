@@ -114,7 +114,7 @@ MotorRot:
           glue_gap: 0.2 mm
           width_leakage_path: 1 mm
           relief_path_length: 2.6 mm
-          fillet_q_side_leakage_space: 3 mm
+          q_axis_fillet: 3 mm
           magnet_material: 
             name: NMF-12J 430mT
     winding:
